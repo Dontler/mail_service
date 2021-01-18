@@ -1,3 +1,6 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+send_photo:
+  path: /mail/send_photo
+  controller: App\Controller\MailController::sendPhoto
